@@ -21,7 +21,7 @@ Seorang operator kemudian dapat mengumpulkan kartu-kartu tersebut dengan nampan,
 * Ida bagus Peling Prayoga 1303204114
 * Naufal Bagas Baihaqi Hakim 1303204126
 # cara menggunakan
-Terlebih dahulu pastikan anda telah menginstall python jika belum maka dapat di install di [sini](https://www.python.org/downloads/)
+pertama, pastikan anda telah menginstall python jika belum maka dapat di install terlebih dahulu di [sini](https://www.python.org/downloads/)
 
 Kemudian clone package dengan perintah di terminal:
 

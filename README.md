@@ -23,7 +23,11 @@ Seorang operator kemudian dapat mengumpulkan kartu-kartu tersebut dengan nampan,
 # cara menggunakan
 Terlebih dahulu pastikan anda telah menginstall python jika belum maka dapat di install di [sini](https://www.python.org/downloads/)
 
-Setelah menginstall python atau telah memastikan python telah ada di device ada silahkan input perintah berikut di command promp (terminal):
+Kemudian clone package dengan perintah di terminal:
+
+> git clone https://github.com/students124/TB-AKA-Kel-12.git
+
+Setelah menginstall python atau telah memastikan python telah ada di device dan telah mengclone package. kemudian di terminal input perintah di main directory:
 
 >  pip install -r requirements.txt
 

@@ -32,5 +32,5 @@ Setelah menginstall python atau telah memastikan python telah ada di device dan 
 >  pip install -r requirements.txt
 
 
-setelah program selesai menginstall semua requirements package maka kemudian:
+setelah program selesai menginstall semua requirements package kemudian input perintah berikut untuk menjalankan main program:
 >  python main.py

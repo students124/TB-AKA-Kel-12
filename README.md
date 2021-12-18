@@ -19,7 +19,7 @@ Seorang operator kemudian dapat mengumpulkan kartu-kartu tersebut dengan nampan,
 # Anggota Kelompok 12
 * Billy Yuriaan 1303204141
 * Ida bagus Peling Prayoga 1303204114
-* aufal Bagas 1303204126
+* Naufal Bagas Baihaqi Hakim 1303204126
 # cara menggunakan
 Terlebih dahulu pastikan anda telah menginstall python jika belum maka dapat di install di [sini](https://www.python.org/downloads/)
 

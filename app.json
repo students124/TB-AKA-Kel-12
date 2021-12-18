@@ -1,0 +1,15 @@
+{
+  "name": "Tugas Besar Kel 12: Python",
+  "description": "TB",
+  "image": "heroku/python",
+  "repository": "https://github.com/students124/TB-AKA-Kel-12",
+  "keywords": ["python"],
+  "addons": [],
+  "environments": {
+    "test": {
+      "scripts": {
+        "run": "python main.py"
+      }
+    }
+  }
+}

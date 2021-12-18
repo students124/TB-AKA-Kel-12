@@ -11,7 +11,7 @@ untuk persoalan tertentu).
 Salah satu komponen untuk mengukur kompetensi mahasiswa mengenai
 pemahaman mata kuliah ini menggunakan penilaian Tugas Besar berdasarkan CLO-2 dan CLO-3.
 # kelompok 12
-Topik yang diambil adalah Radix Sort adalah algoritma yang digunakan oleh mesin penyortiran kartu yang sekarang Anda temukan hanya di museum komputer. Kartu memiliki 80 kolom, dan di setiap kolom mesin dapat melubangi salah satu dari 12 tempat. 
+Topik yang diambil adalah Radix Sort. Radix Sort adalah algoritma yang digunakan oleh mesin penyortiran kartu yang sekarang Anda temukan hanya di museum komputer. Kartu memiliki 80 kolom, dan di setiap kolom mesin dapat melubangi salah satu dari 12 tempat. 
 
 Penyortir dapat secara mekanis “diprogram” untuk memeriksa kolom tertentu dari setiap kartu di dek dan mendistribusikan kartu ke salah satu dari 12 bin tergantung pada tempat yang telah dilubangi. 
 

@@ -1,32 +1,21 @@
 # importing the required module
-import matplotlib.pyplot as plt
 from src.BubbleSort import bubbleSort
 from src.RadixSort import countingSort, radixSort
-from src.ufr import printArray
-
-def makePlot():
-    # x axis values
-    x = [1,2,3]
-    # corresponding y axis values
-    y = [2,4,1]
-    
-    # plotting the points
-    plt.plot(x, y)
-    
-    # naming the x axis
-    plt.xlabel('x - axis')
-    # naming the y axis
-    plt.ylabel('y - axis')
-    
-    # giving a title to my graph
-    plt.title('My first graph!')
-    
-    # function to show the plot
-    plt.show()
-
+from src.ufr import printArray,inputArray
+from src.plot import makePlot
 
 def main():
-    makePlot()
+    # x axis values for radix
+    x1 = [1,2,3]
+    # corresponding y axis values for radix
+    y1 = [2,4,1]
+
+    # x axis values for radix for bubble
+    x2 = [4,5,6]
+    # corresponding y axis values for bubble
+    y2 = [4,8,2]
+
+    makePlot(x1,y1,x2,y2)
     
 
 if __name__ == '__main__':

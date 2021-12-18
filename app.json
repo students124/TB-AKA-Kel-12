@@ -8,7 +8,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "run": "python main.py"
+        "test": "python main.py"
       }
     }
   }

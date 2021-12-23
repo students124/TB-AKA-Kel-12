@@ -21,5 +21,8 @@ def makePlot(x1 : int,y1 : int,x2 : int,y2 : int, xLabel : str, yLabel : str, ti
     # showing all the legend mark
     plt.legend()
 
+    #title of the program
+    plt.title("Radix VS Bubble")
+
     # function to show the plot
     plt.show()

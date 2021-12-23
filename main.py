@@ -1,6 +1,7 @@
 # importing the required module
 import timeit
 import numpy as np
+import pandas as pd
 from src.BubbleSort import bubbleSort
 from src.RadixSort import countingSort, radixSort
 from src.ufr import printArray,inputArray
@@ -16,40 +17,33 @@ def main():
     arr100000 = list(np.random.randint(low=1, high=1000, size=100000))    
 
     #n = 10 for radix
-    rn10 = timeit.timeit(lambda : radixSort(arr10), number=1)
+    rn10 = timeit.timeit(lambda : radixSort(arr10))
 
     #n = 100 for radix
-    # rn100 = timeit.timeit(lambda : radixSort(arr10), number=10)
     rn100 = timeit.timeit(lambda : radixSort(arr100))
 
     #n = 1000 for radix
-    # rn1000 = timeit.timeit(lambda : radixSort(arr10), number=100)
     rn1000 = timeit.timeit(lambda : radixSort(arr1000))
 
     #n = 10000 for radix
-    # rn10000 = timeit.timeit(lambda : radixSort(arr10), number=1000)
     rn10000 = timeit.timeit(lambda : radixSort(arr10000))
 
     #n = 1000 for radix
-    # rn100000 = timeit.timeit(lambda : radixSort(arr10), number=10000)
     rn100000 = timeit.timeit(lambda : radixSort(arr100000))
 
     #n = 10 for bubble
-    dn10 = timeit.timeit(lambda : bubbleSort(arr10),number=1)
+    dn10 = timeit.timeit(lambda : bubbleSort(arr10))
+
     #n = 100 for bubble
-    # dn100 = timeit.timeit(lambda : bubbleSort(arr10),number=10)
     dn100 = timeit.timeit(lambda : bubbleSort(arr100))
 
-    #n = 1000 for bubble
-    # dn1000 = timeit.timeit(lambda : bubbleSort(arr10),number=100)
+    # #n = 1000 for bubble
     dn1000 = timeit.timeit(lambda : bubbleSort(arr1000))
 
-    #n = 10000 for bubble
-    # dn10000 = timeit.timeit(lambda : radixSort(arr10),number=1000)
+    # #n = 10000 for bubble
     dn10000 = timeit.timeit(lambda : radixSort(arr10000))
 
-    #n = 100000 for bubble
-    # dn100000 = timeit.timeit(lambda : radixSort(arr10),number=10000)
+    # #n = 100000 for bubble
     dn100000 = timeit.timeit(lambda : radixSort(arr100000))
 
 
@@ -61,11 +55,15 @@ def main():
     # x axis values for radix for bubble
     x2 = [dn10,dn100,dn1000,dn10000,dn100000]
     # corresponding y axis values for bubble
-    y2 = [10,100,1000,10000,100000]
+    # y2 = [10,100,1000,10000,100000]
 
-    makePlot(x1,y1,x2,y2, "Running Time", "Input Size", "Radix VS Bubble")
+    df = pd.DataFrame({
+        "Data" : y1,
+        "Radix" : x1,
+        "Bubble" : x2
+    })
 
-    
+    print(df)
     
 
 if __name__ == '__main__':

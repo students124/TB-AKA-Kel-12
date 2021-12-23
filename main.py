@@ -5,7 +5,7 @@ import pandas as pd
 from src.BubbleSort import bubbleSort
 from src.RadixSort import countingSort, radixSort
 from src.ufr import printArray,inputArray
-from src.plot import makePlot
+# from src.plot import makePlot
 
 
 def main():
